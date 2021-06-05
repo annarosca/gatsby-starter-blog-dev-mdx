@@ -4,14 +4,16 @@
 
 This is a GatsbyJS V3 starter forked form the official gatsby-starter-blog, with the addition of MDX support and custom code blocks, including code block title, 'Copy' button and language ribbon.
 
+![Licence: 0BSD](https://img.shields.io/github/license/rossettiquette/gatsby-starter-blog-dev-mdx) ![Gatsby Version 3](https://img.shields.io/badge/Gatsby-V3-blueviolet) [![Netlify Status](https://api.netlify.com/api/v1/badges/35f57f2e-1841-44b3-982c-d92060cee477/deploy-status)](https://app.netlify.com/sites/gatsby-starter-blog-dev-mdx/deploys)
+
 ## Demo
 
-You can see a working demo here.
-![Demo Screenshot](./src/images/demo.jpg?raw=true)
+You can see a working demo [here](https://gatsby-starter-blog-dev-mdx.netlify.app/).
+![Demo Screenshot](https://github.com/rossettiquette/gatsby-starter-blog-dev-mdx/blob/main/src/images/demo.jpg?raw=true)
 
 ## Prerequisites
 
-Make sure you have Node.js at version 12 or higher installed, as well as Git and Gatsby Cli.  If you don't already have Gatsby Cli installed, do that first.
+Make sure you have Node.js at version 12 or higher installed, as well as Git and Gatsby Cli. If you don't already have Gatsby Cli installed, do that first.
 
 ```shell
 npm install -g gatsby-cli
@@ -21,29 +23,29 @@ npm install -g gatsby-cli
 
 1. **Create a Gatsby site.**
 
-    Use the Gatsby CLI to create a new site, specifying the blog starter.
+   Use the Gatsby CLI to create a new site, specifying the blog starter.
 
-    ```shell
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
-    ```
+   ```shell
+   # create a new Gatsby site using the blog starter
+   gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
+   ```
 
 2. **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+   Navigate into your new site’s directory and start it up.
 
-    ```shell
-    cd my-blog-starter/
-    gatsby develop
-    ```
+   ```shell
+   cd my-blog-starter/
+   gatsby develop
+   ```
 
 3. **Open the source code and start editing!**
 
-    Your site is now running at `http://localhost:8000`!
+   Your site is now running at `http://localhost:8000`!
 
-    _Note: You'll also see a second link:_`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
+   _Note: You'll also see a second link:_`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+   Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 ## 🧐 What's inside?
 
@@ -99,7 +101,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 Open up the gatsby-config.js file in the root folder and find the site metadata information. Replace author bio information with your own: change the title of the site, the author name and summary, your site's description and your twitter handle. Change your URL as well if you already have one.
 
-``` gatsby-config.js
+```gatsby-config.js
 siteMetadata: {
     title: `Your Site Title`,
     author: {
@@ -116,7 +118,7 @@ siteMetadata: {
 
 If you want to use Google Analytics to track your site's stats, look for the following lines, uncomment them and add your own tracker:
 
-``` gatsby-config.js
+```gatsby-config.js
 // {
     //   resolve: `gatsby-plugin-google-analytics`,
     //   options: {

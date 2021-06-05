@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Dev Blog with MDX`,
+    title: `Gatsby Starter Blog for Devs with MDX`,
     author: {
       name: `Anna Rossetti`,
       summary: `who lives and works in England building whimsical things.`,

@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Anna Rossetti <hi@annarossetti.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/rossettiquette/gatsby-starter-blog-dev-mdx/issues"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
@@ -39,15 +39,15 @@
   "devDependencies": {
     "prettier": "2.2.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/rossettiquette/gatsby-starter-blog-dev-mdx",
   "keywords": [
-    "gatsby"
+    "gatsby", "gatsby-plugin", "gatsby-starter", "mdx", "starter", "blog" 
   ],
   "license": "0BSD",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/rossettiquette/gatsby-starter-blog-dev-mdx"
   },
   "scripts": {
     "build": "gatsby build",
