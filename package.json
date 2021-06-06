@@ -1,6 +1,6 @@
 {
   "name": "gatsby-starter-blog-dev-mdx",
-  "private": true,
+  "private": false,
   "description": "A starter for a dev blog powered by Gatsby and MDX",
   "version": "0.1.0",
   "author": "Anna Rossetti <hi@annarossetti.com>",
