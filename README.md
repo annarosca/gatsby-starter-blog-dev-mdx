@@ -35,7 +35,7 @@ npm install -g gatsby-cli
    Navigate into your new site’s directory and start it up.
 
    ```shell
-   cd my-blog-starter/
+   cd my-blog/
    gatsby develop
    ```
 
